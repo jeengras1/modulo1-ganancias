@@ -7,5 +7,5 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
+# 👇 Ejecuta el servidor correctamente
 CMD ["python", "main.py"]
-  
